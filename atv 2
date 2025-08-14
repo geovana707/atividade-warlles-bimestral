@@ -21,8 +21,7 @@ int main() {
         scanf("%d", &e);
 
         if (e > maior) {
-            maior = e;     
-            quant = 1;     
+            maior = e;         
         } else if (e == maior) {
             quant++;       
         }
